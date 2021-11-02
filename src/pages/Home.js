@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import Game from "../components/Game";
 import GameDetail from "../components/GameDetail";
 import { useLocation } from "react-router-dom";
-import { loadDetail } from "../actions/detailAction";
+
 
 const Home = () => {
   const dispatch = useDispatch();
